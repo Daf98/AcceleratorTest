@@ -12,7 +12,7 @@ const Splash = () => {
          facilitate innovation between all members of our community</p>
         <Link className={splashLink} to="demo-request">Schedule a Demo</Link>
         <Link to="watch-video">
-            <StaticImage src='../images/Video.png' />
+            <StaticImage src='../images/Video.png' alt="" />
         </Link>
     </div>
   )

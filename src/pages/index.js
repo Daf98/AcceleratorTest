@@ -4,6 +4,7 @@ import './index.module.css'
 import Splash from '../components/splash'
 import Cookies from '../components/cookies'
 import Rainbow from '../components/rainbow'
+import Card from '../components/card'
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
     <Splash />
     <Cookies />
     <Rainbow />
+    <Card />
     </>
   )
 }
