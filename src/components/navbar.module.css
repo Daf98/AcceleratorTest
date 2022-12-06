@@ -7,19 +7,20 @@
     justify-content: space-around;
     font-size: 1rem;
     font-weight:600;
+    align-items: center;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 2rem;
-    align-items: center;
 }
 
 .navLogo {
     display: flex;
     gap: 1rem;
     height: 50px;
+    align-items: center;
 }
 
 .navLink {
