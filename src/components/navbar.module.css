@@ -7,6 +7,7 @@
     justify-content: space-around;
     font-size: 1rem;
     font-weight:600;
+    align-items: center;
 }
 
 ul {
@@ -19,7 +20,7 @@ ul {
 .navLogo {
     display: flex;
     gap: 1rem;
-    
+    height: 50px;
 }
 
 .navLink {
