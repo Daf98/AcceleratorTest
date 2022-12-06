@@ -10,6 +10,7 @@
 .splashLink {
     text-decoration: none;
     color: black;
+    font-weight: 600;
     border: 1px solid white;
     padding: 1rem;
     background-color: white;
@@ -25,5 +26,10 @@
 }
 
 .longPar {
+    text-align: center;
+}
+
+.splashHeader {
+    font-size: 4rem;
     text-align: center;
 }
