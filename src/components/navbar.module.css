@@ -30,7 +30,7 @@ ul {
 
 #signButton {
     border: 1px solid white;
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 9px;
 }
 
@@ -43,7 +43,7 @@ ul {
     color: #4285da;
     background-color: white;
     border: 1px solid #4285da;
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 9px;
 
 }

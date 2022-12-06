@@ -15,3 +15,15 @@
     background-color: white;
     border-radius: 9px;
 }
+
+.splashLink:hover {
+    background-color: transparent;
+}
+
+.firstPar {
+    padding-top: 2rem;
+}
+
+.longPar {
+    text-align: center;
+}
