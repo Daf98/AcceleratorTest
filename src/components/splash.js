@@ -14,7 +14,6 @@ const Splash = () => {
         <Link to="watch-video">
             <StaticImage src='../images/Video.png' />
         </Link>
-        <div>Cookies</div>
     </div>
   )
 }

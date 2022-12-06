@@ -1,0 +1,40 @@
+.cookieSpan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.acceptCookies {
+    color: white;
+    background-color: #206ECF;
+    padding: 0.5rem 1rem;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.acceptCookies:hover {
+    background-color: white;
+    color: #206ECF;
+    border: 1px solid #206ECF;
+}
+
+.knowMore {
+    color: #206ECF;
+    background-color: white;
+    border: 1px solid #206ECF;
+    padding: 0.5rem 1rem;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.knowMore:hover {
+    border: 1px solid white;
+    background-color: #206ECF;
+    color: white;
+}
+
+.cookiePolicy {
+    color: black;
+    text-decoration: none;
+}
