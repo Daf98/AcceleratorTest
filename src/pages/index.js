@@ -7,5 +7,6 @@ const Index = () => {
     <Navbar />
   )
 }
+export const Head = () => <title>Home Page</title>
 
 export default Index
