@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../components/navbar'
-import './index.module.css'
 import Splash from '../components/splash'
 import Cookies from '../components/cookies'
 import Rainbow from '../components/rainbow'
 import Card from '../components/card'
+import Features from '../components/features'
+import './index.module.css'
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
     <Cookies />
     <Rainbow />
     <Card />
+    <Features />
     </>
   )
 }
