@@ -17,6 +17,13 @@
   padding: 1rem;
 }
 
+.gridContent {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
 .cardList {
   display: flex;
   flex-direction: column;
