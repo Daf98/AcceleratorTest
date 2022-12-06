@@ -3,6 +3,7 @@ import Navbar from '../components/navbar'
 import './index.module.css'
 import Splash from '../components/splash'
 import Cookies from '../components/cookies'
+import Rainbow from '../components/rainbow'
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
     <Navbar />
     <Splash />
     <Cookies />
+    <Rainbow />
     </>
   )
 }
