@@ -1,0 +1,23 @@
+.clientContainer {
+    display: flex;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.clientPhoto {
+    height: 50px;
+}
+
+#clientPhotoID {
+    width: auto;
+    height: 100%;
+}
+
+.clientCarousel {
+    padding: 1rem;
+    width: 70%;
+}
+
+.carousel {
+    display: flex;
+}

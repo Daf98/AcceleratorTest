@@ -5,6 +5,7 @@ import Cookies from '../components/cookies'
 import Rainbow from '../components/rainbow'
 import Card from '../components/card'
 import Features from '../components/features'
+import Clients from '../components/clients'
 import './index.module.css'
 
 const Index = () => {
@@ -16,6 +17,7 @@ const Index = () => {
     <Rainbow />
     <Card />
     <Features />
+    <Clients />
     </>
   )
 }
