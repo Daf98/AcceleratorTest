@@ -1,0 +1,54 @@
+.navbar {
+    padding: 1rem;
+    background-color: #4285da;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight:600;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navLogo {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+}
+
+#signButton {
+    border: 1px solid white;
+    padding: 1.5rem;
+    border-radius: 9px;
+}
+
+#signButton:hover {
+    background-color: white;
+    color: #4285da;
+}
+
+#demoRequest {
+    color: #4285da;
+    background-color: white;
+    border: 1px solid #4285da;
+    padding: 1.5rem;
+    border-radius: 9px;
+
+}
+
+#demoRequest:hover {
+    border: 1px solid white;
+    background-color: #4285da;
+    color: white;
+}
