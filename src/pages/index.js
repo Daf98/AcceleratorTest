@@ -6,6 +6,7 @@ import Rainbow from '../components/rainbow'
 import Card from '../components/card'
 import Features from '../components/features'
 import Clients from '../components/clients'
+import Footer from '../components/footer'
 import './index.module.css'
 
 const Index = () => {
@@ -18,6 +19,7 @@ const Index = () => {
     <Card />
     <Features />
     <Clients />
+    <Footer />
     </>
   )
 }
