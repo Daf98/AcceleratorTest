@@ -2,6 +2,7 @@
     display: flex;
     padding: 2rem;
     gap: 3rem;
+    align-items: center;
 }
 
 .clientPhoto {
@@ -20,4 +21,50 @@
 
 .carousel {
     display: flex;
+}
+
+.callToAction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem 1rem;
+}
+
+#clientPar {
+    color:#6B788A;
+    font-weight: bold;
+}
+
+#contactButton {
+    text-decoration: none;
+    color: #206ECF;
+    border: 1px solid #206ECF;
+    padding: 1rem 1.5rem;
+    border-radius: 9px;
+}
+
+#contactButton:hover {
+    background-color: #206ECF;
+    color: white;
+}
+
+#demoRequest {
+    text-decoration: none;
+    color: white;
+    background-color: #206ECF;
+    padding: 1rem 1.5rem;
+    border-radius: 9px;
+
+}
+
+#demoRequest:hover {
+    border: 1px solid #206ECF;
+    color: #206ECF;
+    background-color: transparent;
+}
+
+.actionButtons {
+    display: flex;
+    gap: 2rem;
 }
