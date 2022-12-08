@@ -48,7 +48,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <nav className={mobileNavbar}>
-      <StaticImage src="../images/logo.png" alt="Logo" />
+        <StaticImage src="../images/logo.png" alt="Logo" />
         {/* <Menu right>
           <Link className={navLink} to="/community">
             Community

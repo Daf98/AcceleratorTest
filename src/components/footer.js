@@ -79,7 +79,7 @@ const Footer = () => {
                 <img src={icon2} alt="Facebook" className={footerIcon} />
               </Link>
               <Link to="/vector">
-                <img src={icon3} alt ="Vector" className={footerIcon} />
+                <img src={icon3} alt="Vector" className={footerIcon} />
               </Link>
               <Link to="/twitter">
                 <img src={icon4} alt="Twitter" className={footerIcon} />

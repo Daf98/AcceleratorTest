@@ -1,10 +1,8 @@
-import { StaticImage } from 'gatsby-plugin-image'
-import React from 'react'
+import { StaticImage } from "gatsby-plugin-image";
+import React from "react";
 
 const Rainbow = () => {
-  return (
-    <StaticImage src='../images/rainbow.png' alt="" />
-  )
-}
+  return <StaticImage src="../images/rainbow.png" alt="" />;
+};
 
-export default Rainbow
+export default Rainbow;
