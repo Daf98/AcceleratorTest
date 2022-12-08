@@ -86,7 +86,7 @@ const Features = () => {
         </div>
       </div>
       <div className={mobileCarousel}>
-        <Carousel showThumbs={false} showArrows={false} showStatus={false} centerSlidePercentage={50}>
+        <Carousel showThumbs={false} showArrows={false} showStatus={false}>
           {featureCards.map((card) => {
             return (
               <div key={card.title} className={gridItem}>
