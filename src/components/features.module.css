@@ -28,8 +28,35 @@
 }
 
 .featureButton {
-  border: 1px solid #206ECF;
+  border: 1px solid #206ecf;
   padding: 1rem;
   border-radius: 5px;
   text-decoration: none;
+}
+.mobileCarousel {
+  display: none;
+}
+/* Mobile version */
+@media (max-width: 500px) {
+  .gridContainer {
+    display: none;
+  }
+  .mobileCarousel {
+    display: block;
+    text-align: start;
+  }
+  .featurePhoto {
+    height: 50px;
+  }
+  #featurePhotoID {
+    width: auto;
+    height: 100%;
+  }
+  .featureContainer {
+    padding: 2rem;
+  }
+  .cardText {
+    text-align: start;
+    font-size: small;
+  }
 }
