@@ -1,7 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import {
-  navbar,
   navLogo,
   navLink,
   signButton,
@@ -10,7 +9,7 @@ import {
   mobileNavbar,
 } from "./navbar.module.css";
 import { Link } from "gatsby";
-import { slide as Menu } from "react-burger-menu";
+// import { slide as Menu } from "react-burger-menu";
 
 const Navbar = () => {
   return (
