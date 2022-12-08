@@ -7,7 +7,8 @@ import {
   footerItem,
   footerTitle,
   footerIcon,
-  separatorLine
+  separatorLine,
+  mobileFooter,
 } from "./footer.module.css";
 import { Link } from "gatsby";
 import icon1 from "../images/footer/LinkedIn.png";
@@ -89,14 +90,14 @@ const Footer = () => {
       </div>
       <hr />
       <footer>
-        <ul>
+        <ul className={mobileFooter}>
           <li>Privacy</li>
           <li>Cookies</li>
           <li>Terms Of Use</li>
           <li>DPA</li>
           <li>Subprocessors</li>
         </ul>
-        <ul>
+        <ul className={mobileFooter}>
           <li>Copyright © 2022 AcceleratorApp All Rights Reserved</li>
           <div id={separatorLine} />
           <li>🌐 English</li>

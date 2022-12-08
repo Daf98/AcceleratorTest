@@ -6,7 +6,7 @@
 }
 
 .clientSpeech {
-    text-align: center;
+  text-align: center;
 }
 .AccIncubators {
   text-decoration: none;
@@ -75,5 +75,13 @@
 @media (max-width: 500px) {
   .clientContainer {
     flex-direction: column;
+  }
+  #contactButton {
+    padding: 0.5rem;
+    align-self: center;
+  }
+  #demoRequest {
+    padding: 0.5rem;
+    align-self: center;
   }
 }

@@ -19,44 +19,55 @@ textarea,
 }
 
 .inputEmail {
-    border-bottom: 1px solid #f3f5f7;
+  border-bottom: 1px solid #f3f5f7;
 }
 
 .footerGrid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
 }
 
 .footerItem {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .footerTitle {
-    border-bottom: 1px solid #B6C0CD;
+  border-bottom: 1px solid #b6c0cd;
 }
 
 .footerItem li {
-    color: #B6C0CD;
+  color: #b6c0cd;
 }
 
 footer {
-    flex-direction: row;
-    justify-content: center;
-    gap: 3rem;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .footerIcon {
-    width: 15px;
-    height: 15px;
-    border: 1px solid #B6C0CD;
-    border-radius: 3px;
-    padding: 0.5rem;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #b6c0cd;
+  border-radius: 3px;
+  padding: 0.5rem;
 }
 
 #separatorLine {
-    border-left: 1px solid #B6C0CD;
+  border-left: 1px solid #b6c0cd;
+}
+
+/* Mobile version */
+@media (max-width: 500px) {
+  .footerGrid,
+  .mobileFooter,
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
