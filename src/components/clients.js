@@ -27,7 +27,7 @@ const Clients = () => {
           150+ incubators/accelerators using AcceleratorApp
         </Link>
       </div>
-      <Carousel showThumbs={false} showArrows={false}>
+      <Carousel showThumbs={false} showArrows={false} showStatus={false}>
         <div>
           <p className={clientCarousel}>
             "AcceleratorApp has helped us a lot to accelerate and optimize our
