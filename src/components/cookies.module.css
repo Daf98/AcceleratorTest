@@ -1,50 +1,50 @@
 .cookieSpan {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .acceptCookies {
-    color: white;
-    background-color: #206ECF;
-    padding: 0.5rem 1rem;
-    border-radius: 9px;
-    text-decoration: none;
+  color: white;
+  background-color: #206ecf;
+  padding: 0.5rem 1rem;
+  border-radius: 9px;
+  text-decoration: none;
 }
 
 .acceptCookies:hover {
-    background-color: white;
-    color: #206ECF;
-    border: 1px solid #206ECF;
+  background-color: white;
+  color: #206ecf;
+  border: 1px solid #206ecf;
 }
 
 .knowMore {
-    color: #206ECF;
-    background-color: white;
-    border: 1px solid #206ECF;
-    padding: 0.5rem 1rem;
-    border-radius: 9px;
-    text-decoration: none;
+  color: #206ecf;
+  background-color: white;
+  border: 1px solid #206ecf;
+  padding: 0.5rem 1rem;
+  border-radius: 9px;
+  text-decoration: none;
 }
 
 .knowMore:hover {
-    border: 1px solid white;
-    background-color: #206ECF;
-    color: white;
+  border: 1px solid white;
+  background-color: #206ecf;
+  color: white;
 }
 
 .cookiePolicy {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 /* Mobile version */
 @media (max-width: 500px) {
-    .cookieSpan {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
+  .cookieSpan {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
   }
+}
