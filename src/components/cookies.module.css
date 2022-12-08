@@ -39,3 +39,12 @@
     color: black;
     text-decoration: none;
 }
+
+/* Mobile version */
+@media (max-width: 500px) {
+    .cookieSpan {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+  }

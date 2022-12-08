@@ -67,6 +67,7 @@ ul {
     align-items: center;
     justify-content: space-around;
     background-color: #4285da;
+    padding: 1rem;
   }
   .bm-burger-bars {
     background: black;
