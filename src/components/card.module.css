@@ -41,7 +41,7 @@
 }
 
 /* Mobile version */
-@media (max-width: 500px) {
+@media (max-width: 880px) {
   .gridContainer {
     display: flex;
     flex-direction: column;
