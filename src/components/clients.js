@@ -5,6 +5,8 @@ import image from "../images/Germany.png";
 import { Link } from "gatsby";
 import {
   clientContainer,
+  clientSpeech,
+  AccIncubators,
   clientPhoto,
   clientCarousel,
   clientPhotoID,
@@ -19,9 +21,9 @@ const Clients = () => {
   return (
     <>
     <div className={clientContainer}>
-      <div>
+      <div className={clientSpeech}>
         <h1>What our customers say</h1>
-        <Link to="/customers">
+        <Link to="/customers" className={AccIncubators}>
           150+ incubators/accelerators using AcceleratorApp
         </Link>
       </div>

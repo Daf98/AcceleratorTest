@@ -5,6 +5,15 @@
   align-items: center;
 }
 
+.clientSpeech {
+    text-align: center;
+}
+.AccIncubators {
+  text-decoration: none;
+  color: #206ecf;
+  padding: 1rem;
+}
+
 .clientPhoto {
   height: 50px;
 }
@@ -16,11 +25,6 @@
 
 .clientCarousel {
   padding: 1rem;
-  width: 70%;
-}
-
-.carousel {
-  display: flex;
 }
 
 .callToAction {
@@ -39,7 +43,6 @@
 #contactButton {
   text-decoration: none;
   color: #206ecf;
-  border: 1px solid #206ecf;
   padding: 1rem 1.5rem;
   border-radius: 9px;
 }
@@ -66,4 +69,11 @@
 .actionButtons {
   display: flex;
   gap: 2rem;
+}
+
+/* Mobile version */
+@media (max-width: 500px) {
+  .clientContainer {
+    flex-direction: column;
+  }
 }
