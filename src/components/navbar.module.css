@@ -13,7 +13,9 @@
 .mobileNavbar {
   display: none;
 }
-
+nav {
+  overflow-x: hidden;
+}
 ul {
   list-style: none;
   display: flex;
@@ -69,7 +71,8 @@ ul {
     background-color: #4285da;
     padding: 1rem;
   }
-  .bm-burger-bars {
-    background: black;
+  .mobileLink {
+    text-decoration: none;
+    color: white;
   }
 }
