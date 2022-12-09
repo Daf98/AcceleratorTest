@@ -17,11 +17,10 @@ const Navbar = () => {
   const Global = createGlobalStyle`
   body, html {
     margin: 0;
-    ${"" /* overflow-x: hidden; */}
   }
   `;
   const MenuIcon = styled.button`
-    position: fixed;
+  position: absolute;
     top: 2rem;
     right: 2rem;
     display: flex;
