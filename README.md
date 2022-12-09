@@ -1,54 +1,77 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# AcceleratorApp
+![image](https://user-images.githubusercontent.com/82343891/206595186-ecd20d42-d6a4-4c9a-b33c-f083b2e1dd4b.png)
+![image](https://user-images.githubusercontent.com/82343891/206595289-be0c9ea1-fb3a-4c21-81ff-307409279747.png)
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+> This is my deisgn for the AcceleratorApp test website.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Built With
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- React
+- Gatsby
 
-2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+## Getting Started
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+To get a local copy, follow these simple steps.
 
-3.  **Open the code and start customizing!**
+### Prerequisites
 
-    Your site is now running at http://localhost:8000!
+Web browser installed
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+### Setup
 
-4.  **Learn more**
+Cloning a repository
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- On GitHub.com, navigate to the main page of the repository;
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- Above the list of files, click "Code" button;
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- Copy the URL to clone the repository. 
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+  - To clone the repository using HTTPS : `https://github.com/Daf98/accelerator-test.git`
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- Open Terminal;
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- Change the current working directory to the location where you want the cloned directory;
 
-## 🚀 Quick start (Gatsby Cloud)
+- Type `git clone`, and then paste the URL you copied earlier;
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+- Type `cd accelerator-test`,
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- Run `gatsby develop` or `npm run develop`;
+
+- Open `http://localhost:8000/` on your browser.
+
+## Live demo
+[Gatsby](https://acceleratortestmain.gatsbyjs.io/)
+## Author
+
+👤 **Dafne Azzolina**
+
+- GitHub: [@Daf98](https://github.com/Daf98)
+- Twitter: [@dafne_azzolina](https://twitter.com/dafne_azzolina)
+- LinkedIn: [dafne-azzolina](https://www.linkedin.com/in/dafne-azzolina/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
+## Credits
+
+Design from [Figma](https://www.figma.com/file/XZpWYhexYEeYLrAm6zyotq/Test-version)
+
+
+
+ 
